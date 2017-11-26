@@ -33,7 +33,11 @@ The wiew show the differents data in a web page. It can be easely understood by 
 - Add a new task (Title, duration, ...)
 - Place an alert on it
 
-The user will be also able to see an overview for the year with only the differents appointments name without details, for the month (more details), for the day (more more details) and see a specific appointment (more more more details)
+The user will be also able to see an overview for the year with only the differents appointments name without details, for the month (more details), for the day (more more details) and see a specific appointment (more more more details).
+
+### Controller
+
+The controller will control the differents action to do. It will open the right page you need, alert of an user action and send data to the right page.
 
 ## Evolution
 
