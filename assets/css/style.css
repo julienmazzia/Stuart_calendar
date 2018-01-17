@@ -4,6 +4,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image:url('../images/background.jpeg');
   }
 
  main {
@@ -27,10 +28,19 @@ nav{
 
 /* Structure */
 
+#container_event{
+	background-color: white;
+	width: 90vh;
+    padding-left: 6vh;
+    height: 64vh;
+    margin-top: 10vh;
+    padding-top: 5vh;
+}
+
 .month_container{
-	padding-top: 8vh !important;
-	background-color: #ede7f6;
-    height: 65vh;
+	padding-top: 0vh !important;
+    /* background-color: white; */
+    height: 52vh;
 }
 
 .month_block{
@@ -70,4 +80,16 @@ nav{
 #task_title{
 	width: 65vh;
 	position: fixed;
+}
+
+.add_button{
+	margin-left: 165vh;
+    margin-top: -85px;
+    width: 255px;
+}
+
+#hour_error{
+    margin-top: -20px;
+    color: red;
+    font-size: 12px;
 }

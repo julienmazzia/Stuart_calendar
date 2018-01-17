@@ -14,4 +14,4 @@
       <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style.css">
 </head>
 
-<?php echo date('l j F Y'); ?>
+<!--<?php echo date('l j F Y'); ?>-->
