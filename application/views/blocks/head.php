@@ -11,5 +11,7 @@
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/Stuart_calendar/assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style.css">
 </head>
+
+<?php echo date('l j F Y'); ?>
