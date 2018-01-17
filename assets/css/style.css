@@ -43,3 +43,31 @@ nav{
 	background-color: #512da8;
 	color: white;
 }
+
+#preview_background{
+	height: 79vh;
+	width: 90vh;
+	margin-right: 52%;
+	margin-top: 2%;
+	float: right;
+	overflow-y: scroll
+}
+
+#preview_task{
+	height: 79vh;
+	width: 65vh;
+    margin-left: 62%;
+	margin-top: 2%;
+}
+
+.hourZone{
+	height: 5vh;
+	width: 88.3vh;
+	background-color: white;
+	border-top: 1px dashed black;
+}
+
+#task_title{
+	width: 65vh;
+	position: fixed;
+}
