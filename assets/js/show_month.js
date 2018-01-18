@@ -38,28 +38,28 @@ function showBlocks(day){
 
 		switch(res){
 			case 0:
-				dayName="lundi";
+				dayName="Monday";
 				break;
 			case 1:
-				dayName="mardi";
+				dayName="Tuesday";
 				break;
 			case 2:
-				dayName="mercredi";
+				dayName="Wenesday";
 				break;
 			case 3:
-				dayName="jeudi";
+				dayName="Thursday";
 				break;
 			case 4:
-				dayName="vendredi";
+				dayName="Friday";
 				break;
 			case 5:
-				dayName="samedi";
+				dayName="Saturday";
 				break;
 			case 6:
-				dayName="dimanche";
+				dayName="Sunday";
 				break;
 		}
 
-		$(container).append("<a href='../View/day'><div class='col s1 month_block'><div class='day_title center-align'>"+dayName+" "+i+"</div></div></a>");
+		$(container).append("<a href='../View/day?day="+dayName+" "+i+"'><div class='col s1 month_block'><div class='day_title center-align'>"+dayName+" "+i+"</div></div></a>");
 	}
 }
