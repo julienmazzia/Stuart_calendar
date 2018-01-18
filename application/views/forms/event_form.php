@@ -1,6 +1,9 @@
 <form class="container" id="container_event">
+
 	<h4>Complete the form to add a new event !</h4>
+
 	<div style="margin-bottom: 5vh;" class="separator2 container_separator"></div>
+
 	<div class="row">
 		<div class="input-field col s3">
 	          <input id="name" type="text" class="validate" required>
@@ -19,6 +22,7 @@
 	          <label for="date">Date</label>
 	    </div>
     </div>
+    
     <div class="row">
         <div class="input-field col s2">
         	<p>Begin time : </p>

@@ -19,12 +19,22 @@ class View extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
+	public function month()
+	{
+		$this->load->helper('url');
+		$this->load->view('blocks/head.php');
+		$this->load->view('blocks/header.php');
+		$this->load->view('views/month.php');
+		$this->load->view('blocks/footer.php');
+
+	}
+
 	public function day()
 	{
 		$this->load->helper('url');
 		$this->load->view('blocks/head.php');
 		$this->load->view('blocks/header.php');
-		$this->load->view('home/day.php');
+		$this->load->view('views/day.php');
 		$this->load->view('blocks/footer.php');
 
 	}

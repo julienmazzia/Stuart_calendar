@@ -1,4 +1,4 @@
-</main>
-<footer class="page-footer">
-        </footer>
-        </body>
+	</main>
+	<footer class="page-footer">
+	</footer>
+</body>

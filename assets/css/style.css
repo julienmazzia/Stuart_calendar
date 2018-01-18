@@ -1,4 +1,4 @@
-/* footer bottom */
+/* General */
 
 body {
     display: flex;
@@ -11,27 +11,13 @@ body {
    flex: 1 0 auto;
  }
 
-
-/*  background colors */
-
-.btn{
-	background-color: #CC7120 !important;
-}
-
-nav{
+ nav{
 	background-color: #4279FF !important;
 }
 
 .page-footer{
 	background-color: #4279FF !important;
 	color: white !important;
-}
-
-/* General */
-
-.title1{
-	color: white;
-    margin-left: 45vh;
 }
 
 .separator1{
@@ -49,26 +35,23 @@ nav{
 	color: white !important;
 }
 
- 
-
-
-
-
-
-#container_event{
-	background-color: white;
-	width: 75vh;
-    padding-left: 6vh;
-    padding-top: 1vh;
-    padding-bottom: 19.6vh;
+.btn{
+	background-color: #CC7120 !important;
 }
+
+.title1{
+	color: white;
+    margin-left: 45vh;
+}
+
+/* month view */
 
 .month_container{
 	padding-top: 0vh !important;
     /* background-color: white; */
     height: 52vh;
     padding-left: 35vh !important;
-}
+} 
 
 .month_block{
 	background-color: white;
@@ -82,6 +65,22 @@ nav{
 	color: white;
 	width: 18.9vh;
     margin-left: -1.2vh;
+}
+
+.add_button{
+	margin-left: 95vh;
+    margin-top: -85px;
+    width: 255px;
+}
+
+/* day view */
+
+#container_event{
+	background-color: white;
+	width: 75vh;
+    padding-left: 6vh;
+    padding-top: 1vh;
+    padding-bottom: 21.8vh;
 }
 
 #preview_background{
@@ -114,23 +113,6 @@ nav{
 	position: fixed;
 }
 
-.add_button{
-	margin-left: 95vh;
-    margin-top: -85px;
-    width: 255px;
-}
-
-#hour_error{
-    margin-top: -20px;
-    color: red;
-    font-size: 12px;
-}
-
-
-.container_separator{
-	margin-left: -6vh;
-}
-
 .coll-body{
 	background-color: #716599;
 	color: white;
@@ -151,6 +133,10 @@ nav{
 	background-color: #CC7120;
 }
 
+.container_separator{
+	margin-left: -6vh;
+}
+
 .menu_coll{
 	margin-top: 2vh;
     margin-bottom: -1vh;
@@ -159,4 +145,12 @@ nav{
 .desc_coll{
 	margin-top: -1vh;
     margin-bottom: 3vh;
+}
+
+/* form event */
+
+#hour_error{
+    margin-top: -20px;
+    color: red;
+    font-size: 12px;
 }

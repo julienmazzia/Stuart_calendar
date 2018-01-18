@@ -25,14 +25,4 @@ class Home extends CI_Controller {
 		$this->load->view('home/home.php');
 
 	}
-
-	public function index2()
-	{
-		$this->load->helper('url');
-		$this->load->view('blocks/head.php');
-		$this->load->view('blocks/header.php');
-		$this->load->view('home/month.php');
-		$this->load->view('blocks/footer.php');
-
-	}
 }
