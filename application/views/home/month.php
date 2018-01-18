@@ -1,5 +1,5 @@
 
-<h2><?php echo date('F Y') ?></h2>
+<h2 class="title1"><?php echo date('F Y') ?></h2>
 
 <?php $option = 5 ?>
 

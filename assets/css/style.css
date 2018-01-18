@@ -46,13 +46,15 @@ nav{
 .month_block{
 	background-color: white;
 	height: 12vh;
-	border : 1px solid black;
+	border-right: 1px solid black;
 	width: 19vh !important;
 }
 
 .day_title{
 	background-color: #512da8;
 	color: white;
+	width: 18.9vh;
+    margin-left: -1.2vh;
 }
 
 #preview_background{
@@ -103,4 +105,9 @@ nav{
 
 .container_separator{
 	margin-left: -3vh;
+}
+
+.title1{
+	color: white;
+    margin-left: 45vh;
 }
