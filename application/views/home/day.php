@@ -6,7 +6,7 @@
 
 <div id="preview_task">
 	<div id="task_title" class="center-align">
-		<h1>To Do List</h1>
+		<h1 style="color: white;">To Do List</h1>
 		<ul class="collapsible" data-collapsible="accordion">
 		  <li>
 		    <div class="collapsible-header">
