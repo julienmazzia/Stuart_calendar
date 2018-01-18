@@ -1,6 +1,6 @@
 <form class="container" id="container_event">
 	<h4>Complete the form to add a new event !</h4>
-	<div style="margin-bottom: 5vh;" class="separator container_separator"></div>
+	<div style="margin-bottom: 5vh;" class="separator2 container_separator"></div>
 	<div class="row">
 		<div class="input-field col s3">
 	          <input id="name" type="text" class="validate" required>

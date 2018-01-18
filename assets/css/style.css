@@ -26,7 +26,29 @@ nav{
 	background-color: #4527a0 !important;
 }
 
-/* Structure */
+/* General */
+
+.title1{
+	color: white;
+    margin-left: 45vh;
+}
+
+.separator1{
+	width: 83vh;
+	height: 1px;
+	background-color: grey;
+}
+
+.separator2{
+	height: 1px;
+	background-color: grey;
+}
+
+ 
+
+
+
+
 
 #container_event{
 	background-color: white;
@@ -78,6 +100,7 @@ nav{
 	width: 88.3vh;
 	background-color: white;
 	border-top: 1px dashed black;
+	margin-top: -1px;
 }
 
 #task_title{
@@ -97,11 +120,6 @@ nav{
     font-size: 12px;
 }
 
-.separator{
-	width: 83vh;
-	height: 1px;
-	background-color: grey;
-}
 
 .container_separator{
 	margin-left: -3vh;
@@ -111,7 +129,3 @@ nav{
 	background-color: #e3f2fd;
 }
 
-.title1{
-	color: white;
-    margin-left: 45vh;
-}
