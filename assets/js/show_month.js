@@ -24,9 +24,13 @@ function showBlocks(day){
 	var container = ".ligne1";
 	var dayName = "lundi";
 	for(i=1; i<=day; i++){
-		if(i>24){
+		if(i>28){
+			container = ".ligne5";
+		}else if (i>21){
+			container = ".ligne4";
+		}else if(i>14){
 			container = ".ligne3";
-		}else if(i>12){
+		}else if(i>7){
 			container = ".ligne2";
 		}
 

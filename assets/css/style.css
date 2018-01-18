@@ -32,21 +32,22 @@ nav{
 	background-color: white;
 	width: 90vh;
     padding-left: 6vh;
-    height: 64vh;
-    margin-top: 10vh;
     padding-top: 5vh;
+    padding-bottom: 13.5vh;
 }
 
 .month_container{
 	padding-top: 0vh !important;
     /* background-color: white; */
     height: 52vh;
+    padding-left: 35vh !important;
 }
 
 .month_block{
 	background-color: white;
-	height: 15vh;
+	height: 12vh;
 	border : 1px solid black;
+	width: 19vh !important;
 }
 
 .day_title{
@@ -83,7 +84,7 @@ nav{
 }
 
 .add_button{
-	margin-left: 165vh;
+	margin-left: 95vh;
     margin-top: -85px;
     width: 255px;
 }
@@ -92,4 +93,14 @@ nav{
     margin-top: -20px;
     color: red;
     font-size: 12px;
+}
+
+.separator{
+	width: 83vh;
+	height: 1px;
+	background-color: grey;
+}
+
+.container_separator{
+	margin-left: -3vh;
 }
