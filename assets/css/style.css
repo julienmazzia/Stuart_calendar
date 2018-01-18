@@ -23,7 +23,8 @@ nav{
 }
 
 .page-footer{
-	background-color: #3B6DE5 !important;
+	background-color: #4279FF !important;
+	color: white !important;
 }
 
 /* General */
@@ -42,6 +43,10 @@ nav{
 .separator2{
 	height: 1px;
 	background-color: grey;
+}
+
+.container.black-text{
+	color: white !important;
 }
 
  
@@ -99,8 +104,9 @@ nav{
 	height: 5vh;
 	width: 88.3vh;
 	background-color: white;
-	border-top: 1px dashed black;
+	border-top: 1px dashed #ccc;
 	margin-top: -1px;
+	color: #ccc;
 }
 
 #task_title{
@@ -130,3 +136,27 @@ nav{
 	color: white;
 }
 
+#preview_background::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#preview_background::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+ 
+#preview_background::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+	background-color: #CC7120;
+}
+
+.menu_coll{
+	margin-top: 2vh;
+    margin-bottom: -1vh;
+}
+
+.desc_coll{
+	margin-top: -1vh;
+    margin-bottom: 3vh;
+}

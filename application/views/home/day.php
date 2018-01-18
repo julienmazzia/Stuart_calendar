@@ -6,7 +6,7 @@
 
 <div id="preview_task">
 	<div id="task_title" class="center-align">
-		<h1 style="color: white;">To Do List</h1>
+		<h3 style="color: white;">To Do List</h3>
 		<ul class="collapsible" data-collapsible="accordion">
 		  <li>
 		    <div class="collapsible-header">
@@ -14,9 +14,9 @@
 		      Do sport
 		      <span style="background-color: #ef5350" class="new badge" data-badge-caption="important"></span></div>
 		    <div class="collapsible-body coll-body">
-		    	<p>Some description here, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello</p>
+		    	<p class="desc_coll">Some description here, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello</p>
 		    	<div style="margin-bottom: 2vh;" class="separator2"></div>
-		    	<div class="row">
+		    	<div class="row menu_coll">
 		    		<div class="col s2">
 			    		<a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">edit</i></a>
 			    	</div>
@@ -34,9 +34,10 @@
 		      <i class="material-icons">event</i>
 		      Drink tea
 		      <span class="new badge" data-badge-caption="to do"></span></div>
-		    <div class="collapsible-body coll-body"><p>Some other there</p>
+		    <div class="collapsible-body coll-body">
+		    <p class="desc_coll">Some other there</p>
 		    <div style="margin-bottom: 2vh;" class="separator2"></div>
-		    	<div class="row">
+		    	<div class="row menu_coll">
 		    		<div class="col s2">
 			    		<a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">edit</i></a>
 			    	</div>
