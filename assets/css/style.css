@@ -39,6 +39,10 @@ body {
 	background-color: #CC7120 !important;
 }
 
+.btn:hover{
+	color: black;
+}
+
 .title1{
 	color: white;
     margin-left: 45vh;
@@ -58,6 +62,10 @@ body {
 	height: 12vh;
 	border-right: 1px solid black;
 	width: 19vh !important;
+}
+
+.month_block:hover{
+	opacity: 0.7;
 }
 
 .day_title{
