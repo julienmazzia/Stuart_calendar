@@ -43,6 +43,10 @@ body {
 	color: black;
 }
 
+.hover-button:hover{
+	color: black;
+}
+
 .title1{
 	color: white;
     margin-left: 45vh;

@@ -15,7 +15,8 @@
       rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style.css">
-    
+
 </head>
 
+<main>
 <!--<?php echo date('l j F Y'); ?>-->
