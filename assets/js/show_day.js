@@ -1,5 +1,7 @@
 $(document.ready).ready(function(){
 	fillPreview();
+	$('.modal').modal();
+	$('select').material_select();
 });
 
 function fillPreview(){
