@@ -1,0 +1,40 @@
+/* General */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ nav{
+	background-color: #4279FF !important;
+}
+
+.page-footer{
+	background-color: #4279FF !important;
+	color: white !important;
+}
+
+.btn{
+	background-color: #CC7120 !important;
+}
+
+.btn:hover{
+	color: black;
+}
+
+.hover-button:hover{
+	color: black;
+}
+
+#par1 {
+          height: 225px;
+}
+
+#par2 {
+          height: 300px;
+}
