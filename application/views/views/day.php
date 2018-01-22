@@ -1,3 +1,5 @@
+<div class="contain">
+	<div><a href="../View/month" class="back"><i class="medium material-icons">arrow_back</i></a></div>
 <h2 style="margin-bottom: -9vh;" class="title1"><?php echo $_GET["day"] ?></h2>
 
 <div id="preview_background">
@@ -58,6 +60,7 @@
 		  </li>
 		</ul>
 	</div>
+</div>
 </div>
 
 <script type="text/javascript" src="<?php base_url(); ?>/assets/js/show_day.js"></script>

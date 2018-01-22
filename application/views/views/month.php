@@ -1,4 +1,4 @@
-
+<div class="contain">
 <h2 class="title1"><?php echo date('F Y') ?></h2>
 
 <?php $option = 5 ?>
@@ -58,6 +58,6 @@
 		</div>-->
 	</div>
 </div>	
-
+</div>
 
 		<script type="text/javascript" src="<?php base_url(); ?>/assets/js/show_month.js"></script>
