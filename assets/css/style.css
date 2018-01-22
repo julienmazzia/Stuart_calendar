@@ -52,6 +52,17 @@ body {
     margin-left: 45vh;
 }
 
+.contain{
+	margin-top: 10vh;
+}
+
+.back{
+	width: 20vh;
+	height: 20vh;
+	color: #CC7120;
+	position: fixed;
+}
+
 /* month view */
 
 .month_container{
