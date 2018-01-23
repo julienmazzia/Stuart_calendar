@@ -4,7 +4,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image:url('../images/background2.jpeg');
+    background-image:url('../images/background8.jpeg');
   }
 
  main {
@@ -12,11 +12,11 @@ body {
  }
 
  nav{
-	background-color: #4279FF !important;
+	background-color: #DB0A5B !important;
 }
 
 .page-footer{
-	background-color: #4279FF !important;
+	background-color: #DB0A5B !important;
 	color: white !important;
 }
 
@@ -36,11 +36,12 @@ body {
 }
 
 .btn{
-	background-color: #CC7120 !important;
+	background-color: #CCBC1E !important;
+	color: black
 }
 
 .btn:hover{
-	color: black;
+	color: #FFE90C;
 }
 
 .hover-button:hover{
@@ -48,7 +49,7 @@ body {
 }
 
 .title1{
-	color: white;
+	color: floralwhite;
     margin-left: 45vh;
 }
 
@@ -59,7 +60,7 @@ body {
 .back{
 	width: 20vh;
 	height: 20vh;
-	color: #CC7120;
+	color: #994465;
 	position: fixed;
 }
 
@@ -84,10 +85,10 @@ body {
 }
 
 .day_title{
-	background-color: #4279FF;
+	background-color: #994465;
 	color: white;
 	width: 18.9vh;
-    margin-left: -1.2vh;
+    margin-left: -1.3vh;
 }
 
 .add_button{
@@ -137,7 +138,7 @@ body {
 }
 
 .coll-body{
-	background-color: #716599;
+	background-color: #994465;
 	color: white;
 }
 
