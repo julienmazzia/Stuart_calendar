@@ -60,7 +60,7 @@ body {
 .back{
 	width: 20vh;
 	height: 20vh;
-	color: #994465;
+	color: #CCBC1E;
 	position: fixed;
 }
 
@@ -88,7 +88,7 @@ body {
 	background-color: #994465;
 	color: white;
 	width: 18.9vh;
-    margin-left: -1.3vh;
+    margin-left: -1.15vh;
 }
 
 .add_button{
@@ -154,7 +154,7 @@ body {
   background-color: darkgrey;
   outline: 1px solid slategrey;
   border-radius: 10px;
-	background-color: #CC7120;
+	background-color: #CCBC1E;
 }
 
 .container_separator{

@@ -3,7 +3,7 @@
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>
 
-    <div class="row">
+    <div style="margin-top: 2vh;" class="row">
 	    	<img class="col s5" src="../<?php base_url(); ?>assets/images/home.png">
 
 		<div class="col s7">
@@ -14,9 +14,9 @@
 
     <div class="row">
     	<div class="col s4">
-    		<h5>Organize your life !</h5>
+    		<h2>Organize your life !</h2>
     	</div>
-    	<!--<div class="col s6 offset-s1 multiple-borders">
+    	<div class="col s6 offset-s1 multiple-borders">
     		<div class="row">
     			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/dinner.jpeg">
     			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/party.jpeg">
@@ -25,12 +25,12 @@
     			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/meeting.jpeg">
     			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/concert.jpeg">
     		</div>
-    	</div>-->
+    	</div>
     </div>
 
 
     <div class="parallax-container" id="par2">
-    		<h4 class="parallax-title">With Stuart you can add any type of appointment at any time, any where. </br>By just some click !</h4>
+    		<h4 class="parallax-title">With Stuart you can add any type of appointment at any time, anywhere. </br>By just some click !</h4>
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/add.png"></div>
     </div>
 
