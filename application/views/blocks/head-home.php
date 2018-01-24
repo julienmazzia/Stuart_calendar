@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style-home.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+
 </head>
 
 <main>

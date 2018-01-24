@@ -1,5 +1,9 @@
 /* General */
 
+html{
+	font-family: 'Exo', sans-serif;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -17,7 +21,7 @@ body {
 }
 
 .page-footer{
-	background-color: #4279FF !important;
+	background-color: #DB0A5B !important;
 	color: white !important;
 }
 
@@ -34,7 +38,7 @@ body {
 }
 
 #par1 {
-          height: 380px;
+          height: 355px;
 }
 
 #par2 {
@@ -42,9 +46,9 @@ body {
 }
 
 .parallax-title{
-	margin-top: 37vh;
+	margin-top: 17vh;
     color: white;
-    width: 623px;
+    width: 58vh;
     margin-left: 2vh;
 }
 
@@ -57,4 +61,12 @@ body {
 	padding: 14px !important;
 	background-color: #994465;
 	border: 12px solid white;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.pop{
+	font-size: 3vh;
 }

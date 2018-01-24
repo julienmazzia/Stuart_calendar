@@ -30,7 +30,6 @@ class Home extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$this->load->view('blocks/head-home.php');
-		$this->load->view('blocks/header.php');
 		$this->load->view('home/index.php');
 		$this->load->view('blocks/footer.php');
 

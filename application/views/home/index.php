@@ -1,37 +1,59 @@
 <div class="parallax-container" id="par1">
-	<h2 style="margin-top: 32vh;color: white;">I'm welcome to Stuart, but what is it exactly ?</h2>
+	<h2 style="margin-left: 3vh;color: white;">I'm welcome to Stuart, what does it mean ?</h2>
+	<a href="../View/month"><button class="btn">Month page</button></a>
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>
 
     <div style="margin-top: 2vh;" class="row">
-	    	<img class="col s5" src="../<?php base_url(); ?>assets/images/home.png">
+	    	
+    	<img class="col s4 offset-s1" src="../<?php base_url(); ?>assets/images/default.jpeg">
 
-		<div class="col s7">
-		    <h4>Stuart is more than a calendar, it is the calendar !</h4>
-		    <h6>I had, for a long time, used different calendars in my life. But I always had many problems "It's too long", "I can't really see what appointment I have in my day !", "Gasp !"</br> Then one day, I told myself : " Why didn't I create my own calendar ? " </br> Then this project came thrue ! </br></br> But in fact, it's cool to have my calendar but it's better if anyone can use and enjoy it ?</h6>
+		<div class="col s6 offset-s1">
+		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
+		    <h5>Stuart assemble the forces of different calendars, always to be faster, easy to handle and to have preview of your actions.</h5>
+		    <h5 class="bold">It had never be so simple to organize your life !</h5>
+		    <!--<h5>I had, for a long time, used different calendars in my life. But I always had many problems </br><span class="pop">“ It's too long ” “ I can't preview anything ” “ Gasp ! ”</span></br> Then one day, I told myself : “ Why didn't I create my own calendar ? ” </br> Then this project came thrue ! </br></br> But in fact, it's cool to have my calendar but it's better if anyone can use and enjoy it ?</h5>-->
 		</div>
     </div>
 
     <div class="row">
-    	<div class="col s4">
-    		<h2>Organize your life !</h2>
+    	<div class="col s6">
+    		<h4 class="bold">Hight visibility</h4>
+    		<h5>With Stuart, you can easely see your events in the day.</h5>
+    		<h5>You can change the duration by simply resize him. More quick solutions to see !</h5>
     	</div>
-    	<div class="col s6 offset-s1 multiple-borders">
-    		<div class="row">
-    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/dinner.jpeg">
-    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/party.jpeg">
-    		</div>
-    		<div>
-    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/meeting.jpeg">
-    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/concert.jpeg">
-    		</div>
+    	<img class="col s5" src="../<?php base_url(); ?>assets/images/planning.png">
+    	
     	</div>
+
+    	
     </div>
 
 
     <div class="parallax-container" id="par2">
-    		<h4 class="parallax-title">With Stuart you can add any type of appointment at any time, anywhere. </br>By just some click !</h4>
+    		<h4 class="parallax-title">With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !</h4>
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/add.png"></div>
+	</div>
+
+    <div class="row" style="margin-top: 2vh;">
+      	<div class="col s6 offset-s1">
+		    <h4 class="bold">Adaptive calendar</h4> 
+		    <h5>Stuart always adapt himself to your needs. You can add a large panel of event to it, have color visibility, create new type of event, ...</h5>
+		    <h5 class="bold">Everything is designed to be faster as it can be.</h5>
+		    <!--<h5>I had, for a long time, used different calendars in my life. But I always had many problems </br><span class="pop">“ It's too long ” “ I can't preview anything ” “ Gasp ! ”</span></br> Then one day, I told myself : “ Why didn't I create my own calendar ? ” </br> Then this project came thrue ! </br></br> But in fact, it's cool to have my calendar but it's better if anyone can use and enjoy it ?</h5>-->
+		</div>
+
+      <div class="col s4 multiple-borders">
+	    		<div class="row">
+	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/dinner.jpeg">
+	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/party.jpeg">
+	    		</div>
+	    		<div>
+	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/meeting.jpeg">
+	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/concert.jpeg">
+	    		</div>
+    	</div>
+
     </div>
 
     
