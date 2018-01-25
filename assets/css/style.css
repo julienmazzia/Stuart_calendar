@@ -114,14 +114,6 @@ body {
 
 /* day view */
 
-#container_event{
-	background-color: white;
-	width: 75vh;
-    padding-left: 6vh;
-    padding-top: 1vh;
-    padding-bottom: 21.8vh;
-}
-
 #preview_background{
 	height: 75vh;
     width: 90vh;
@@ -187,6 +179,15 @@ body {
 }
 
 /* form event */
+
+#container_event{
+	background-color: white;
+	width: 115vh;
+    padding-left: 6vh;
+    padding-top: 1vh;
+    padding-bottom: 21.8vh;
+    margin-top: 7vh;
+}
 
 #hour_error{
     margin-top: -20px;

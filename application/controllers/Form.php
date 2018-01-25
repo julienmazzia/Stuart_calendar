@@ -22,9 +22,9 @@ class Form extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$this->load->view('blocks/head.php');
-		$this->load->view('blocks/header.php');
+		//$this->load->view('blocks/header.php');
 		$this->load->view('forms/event_form.php');
-		$this->load->view('blocks/footer.php');
+		//$this->load->view('blocks/footer.php');
 
 	}
 }

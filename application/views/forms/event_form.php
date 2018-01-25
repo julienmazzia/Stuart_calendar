@@ -14,24 +14,36 @@
 	          <input id="place" type="text" class="validate">
 	          <label for="place">Place</label>
 	    </div>
+        <div class="input-field col s3">
+            <select>
+              <option value="0" disabled selected>Category</option>
+              <option value="1">Sport</option>
+              <option value="2">Dentist</option>
+              <option value="3">meeting</option>
+            </select>
+          </div>
 	</div>
 
 	<div class="row">
 	    <div class="input-field col s2">
-	          <input id="date" type="text" class="datepicker" required>
-	          <label for="date">Date</label>
+	          <input id="date1" type="text" class="datepicker" required>
+	          <label for="date">Begining date</label>
 	    </div>
+        <div class="input-field col s2">
+              <input id="date2" type="text" class="datepicker">
+              <label for="date">Ending date</label>
+        </div>
     </div>
     
     <div class="row">
         <div class="input-field col s2">
-        	<p>Begin time : </p>
             <input id="timepicker_ampm_dark_1" class="timepicker" type="time" required>
+            <label for="date" class="active">Begin time :</label>
         </div>
 
         <div class="input-field col s2">
-        	<p>Ending time : </p>
-            <input id="timepicker_ampm_dark_2" class="timepicker" type="time" required>
+            <input id="timepicker_ampm_dark_2" class="timepicker" type="time">
+            <label for="date" class="active">Ending time :</label>
             <p id="hour_error">Wrong ending hour</p>
         </div>
     </div>
