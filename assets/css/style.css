@@ -64,6 +64,10 @@ body {
 	position: fixed;
 }
 
+.slider .indicators .indicator-item.active{
+	background-color: #CCBC1E !important;
+}
+
 /* month view */
 
 .month_container{
@@ -78,17 +82,28 @@ body {
 	height: 12vh;
 	border-right: 1px solid black;
 	width: 19vh !important;
+	padding-left: 0px !important;
 }
 
 .month_block:hover{
-	opacity: 0.7;
+	box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    border: none;
 }
 
 .day_title{
 	background-color: #994465;
 	color: white;
 	width: 18.9vh;
-    margin-left: -1.15vh;
+    /*margin-left: -1.15vh;*/
 }
 
 .add_button{

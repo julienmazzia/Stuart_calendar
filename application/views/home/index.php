@@ -8,7 +8,7 @@
 	    	
     	<img class="col s4 offset-s1" src="../<?php base_url(); ?>assets/images/default.jpeg">
 
-		<div class="col s6 offset-s1">
+		<div class="col s6 offset-s1 section">
 		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
 		    <h5>Stuart assemble the forces of different calendars, always to be faster, easy to handle and to have preview of your actions.</h5>
 		    <h5 class="bold">It had never be so simple to organize your life !</h5>
@@ -17,8 +17,8 @@
     </div>
 
     <div class="row">
-    	<div class="col s6">
-    		<h4 class="bold">Hight visibility</h4>
+    	<div class="col s6 section">
+    		<h4 class="bold">High visibility</h4>
     		<h5>With Stuart, you can easely see your events in the day.</h5>
     		<h5>You can change the duration by simply resize him. More quick solutions to see !</h5>
     	</div>
@@ -36,7 +36,7 @@
 	</div>
 
     <div class="row" style="margin-top: 2vh;">
-      	<div class="col s6 offset-s1">
+      	<div class="col s6 offset-s1 section">
 		    <h4 class="bold">Adaptive calendar</h4> 
 		    <h5>Stuart always adapt himself to your needs. You can add a large panel of event to it, have color visibility, create new type of event, ...</h5>
 		    <h5 class="bold">Everything is designed to be faster as it can be.</h5>
