@@ -2,7 +2,7 @@ $(document.ready).ready(function(){
 	fillPreview();
 	$('.modal').modal();
 	$('select').material_select();
-	$('#hourZone5').append('<div class="event_block popup" onclick="myFunction()">'+
+	$('#hourZone5').append('<div class="event_block popup" onclick="showPopUp()">'+
 		'<div class="row"><div class="col s4">Meeting</div> <div class="col s5 offset-s3">2:30 - 2:45</div></div>'
 		+'<span class="popuptext" id="myPopup"> Description</span></div>');
 
@@ -25,7 +25,7 @@ function fillPreview(){
 	}
 }
 
-function myFunction() {
+function showPopUp() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
 }
