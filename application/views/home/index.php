@@ -31,7 +31,9 @@
 
 
     <div class="parallax-container" id="par2">
-    		<h4 class="parallax-title">With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !</h4>
+        <div class="row">
+    		<h4 class="parallax-title col s3">With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !</h4>
+        </div>
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/add.png"></div>
 	</div>
 
