@@ -1,0 +1,45 @@
+/* General */
+
+html{
+	font-family: 'Exo', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+    background-color: #DB0A5B;
+    border: 20px solid #994465;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+.btn{
+	background-color: #CCBC1E !important;
+	color: black
+}
+
+.btn:hover{
+	color: #FFE90C;
+}
+
+ #form_container{
+ 	background-color: white;
+ 	color: black;
+    width: 60vh;
+    height: 60vh;
+    margin-top: 18vh;
+    margin-left: 66vh;
+ }
+
+ .login_padding{
+ 	padding-top: 7vh;
+ }
+
+ label{
+ 	font-size: 2vh !important;
+    color: black !important
+ }

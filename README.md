@@ -5,17 +5,17 @@
 Stuart is a personal project in development.
 It is a personal web calendar which help to organize your own planning.
 
-#### Stuart is more than a calendar, it is the calendar !
+### Stuart is more than a calendar, it is the calendar !
 
 Stuart assemble the forces of different calendars, always to be faster, easy to handle and to have preview of your actions.</br>
 It had never be so simple to organize your life !
 
-#### High visibility
+### High visibility
 
 With Stuart, you can easely see your events in the day. You can have a quick overview of your appointment daily or monthly.
-With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !
+You can add any type of appointment, any time, anywhere. </br>And really quickly !
 
-#### Adaptive calendar
+### Adaptive calendar
 
 Stuart always adapt himself to your needs. You can add a large panel of event to it, have color visibility, create new type of event, ... </br>
 Different type of functionality are implemented :
@@ -48,7 +48,7 @@ The user will be also able to see an overview for the month and for the day. An 
 
 ### Controller
 
-The controller is only use to load the different ressources for the view. Like the parts of the page (header, footer, ...) and the data (events, tasks, ...).
+The controller is only use to load the different ressources for the view and the model. Like the parts of the page (header, footer, ...) and the data (events, tasks, ...).
 
 ## Evolution
 
