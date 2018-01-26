@@ -5,13 +5,26 @@
 Stuart is a personal project in development.
 It is a personal web calendar which help to organize your own planning.
 
-Including :
+#### Stuart is more than a calendar, it is the calendar !
+
+Stuart assemble the forces of different calendars, always to be faster, easy to handle and to have preview of your actions.</br>
+It had never be so simple to organize your life !
+
+#### High visibility
+
+With Stuart, you can easely see your events in the day. You can have a quick overview of your appointment daily or monthly.
+With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !
+
+#### Adaptive calendar
+
+Stuart always adapt himself to your needs. You can add a large panel of event to it, have color visibility, create new type of event, ... </br>
+Different type of functionality are implemented :
 - Medical and professional appointment (job meetings, dentist, ...)
 - Personal appointment (party, events, ...)
 - Alert of event (birthday)
 - And a daily *ToDo* List wich recap the tasks that must be done for the day
 
-You can have a quick overview of your appointment daily or monthly.
+Everything is designed to be faster as it can be.
 
 ## Structure *(this part will be probably changing)*
 
