@@ -1,6 +1,9 @@
 <div class="parallax-container" id="par1">
 	<h2 style="margin-left: 3vh;color: white;">I'm welcome to Stuart, what does it mean ?</h2>
-	<a href="../View/month"><button class="btn">Month page</button></a>
+    <div id="connect">
+        <a href="../Account/login"><button class="btn">Sign in</button></a>
+        <a href="../Account/createAccount"><button class="btn">Join us !</button></a>
+    </div>
       <div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>
 

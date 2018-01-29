@@ -75,3 +75,17 @@ body {
 .section{
 	margin-top: 6vh;
 }
+
+#connect{
+	margin-left: 160vh;
+    margin-top: -7vh;
+}
+
+.btn{
+	background-color: #CCBC1E !important;
+	color: black
+}
+
+.btn:hover{
+	color: #FFE90C;
+}
