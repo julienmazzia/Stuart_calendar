@@ -11,6 +11,7 @@ body {
     color: white;
     background-color: #DB0A5B;
     border: 20px solid #994465;
+    padding-top: 18vh;
   }
 
 main {
@@ -19,27 +20,31 @@ main {
 
 .btn{
 	background-color: #CCBC1E !important;
-	color: black
+	color: black;
 }
 
 .btn:hover{
 	color: #FFE90C;
+    background-color: black !important;
 }
 
  #form_container{
  	background-color: white;
  	color: black;
-    width: 60vh;
     height: 60vh;
-    margin-top: 18vh;
-    margin-left: 66vh;
  }
 
  .login_padding{
- 	padding-top: 7vh;
+ 	padding-top: 1vh;
  }
 
  label{
  	font-size: 2vh !important;
     color: black !important
  }
+
+ @media screen and (max-device-width: 450px) {
+    label { 
+        font-size: 1.5em !important;
+    }
+}

@@ -1,0 +1,113 @@
+html{
+	font-family: 'Exo', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+    background-color: #DB0A5B;
+  }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ nav{
+	background-color: #DB0A5B !important;
+}
+
+.row{
+	margin-bottom: 0px !important;
+	padding-bottom: 20px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.btn, .btn-large{
+	background-color: #CCBC1E !important;
+
+}
+
+.btn:hover{
+	background-color: white !important;
+	color: #CCBC1E;
+}
+
+.border{
+	height: 15px;
+}
+
+.shadow-top{
+	box-shadow: 0px -8px 20px black;
+}
+
+.shadow-bottom{
+	box-shadow: 0px 8px 20px black;
+}
+
+.border-dark{
+	background-color: #5B0426;
+	height: 15px;
+}
+
+.account{
+	margin-top: 1.6%;
+}
+
+#par1{
+	height: 350px;
+}
+
+#par2 {
+          height: 850px;
+}
+
+.section{
+	margin-top: 2%;
+}
+
+.light-1{
+	background-color: #E80B60 !important;
+}
+
+.light-2{
+	background-color: #C10950 !important;
+}
+
+.dark-1{
+	background-color : #B7084C !important;
+}
+
+.dark-2{
+	background-color : #5B0426 !important;
+}
+
+.multiple-borders{
+	box-shadow: 0px 0px 0px 7px #994465;
+	padding: 14px !important;
+	background-color: #994465;
+	border: 12px solid white;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.effect:hover{
+	opacity: 0.8;
+}
+
+.margin{
+	margin-bottom: 20px !important;
+}
+
+.img-top{
+	margin-top: 15px;
+}
+
+@media screen and (max-device-width: 990px) {
+	h3 { 
+		font-size: 2.0em;
+	}
+}
