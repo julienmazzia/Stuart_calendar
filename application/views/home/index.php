@@ -11,7 +11,7 @@
       	<div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>
 
-    <div class="row text-padding">
+    <div class="row text-padding light-3">
 	    	
     	<img class="col s4 offset-s1 img-top" src="../<?php base_url(); ?>assets/images/aircraft.png">
 
@@ -44,7 +44,7 @@
 
 	<div class="border dark-1 shadow-top"></div>
 
-	<div class="row" style="margin-top: 2vh;">
+	<div class="row light-3" style="padding-top: 2vh;">
       	<div class="col s6 offset-s1 section">
 		    <h4 class="bold">Adaptive calendar</h4> 
 		    <h5>Stuart always adapt himself to your needs. You can add a large panel of event to it, have color visibility, create new type of event, ...</h5>

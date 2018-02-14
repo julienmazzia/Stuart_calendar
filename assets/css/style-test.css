@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     color: white;
-    background-color: #DB0A5B;
+    background-color: #C10950;
   }
 
  main {
@@ -76,6 +76,10 @@ body {
 
 .light-2{
 	background-color: #C10950 !important;
+}
+
+.light-3{
+	background-color: #DB0A5B !important;
 }
 
 .dark-1{

@@ -97,7 +97,7 @@
 		<div class="row">
 			<h3 style="color: white;" class="col s5 offset-s3">To Do List</h3>
 			<div class="col s2  offset-s2" style="margin-top: 2vh;">
-				<a class="btn-floating btn-large waves-effect waves-light modal-trigger" style="background-color: #CCBC1E;" href="#modal1"><i class="material-icons hover-button">add</i></a>
+				<a class="btn-floating btn-large waves-effect waves-light modal-trigger" style="background-color: #F7CA18;" href="#modal1"><i class="material-icons hover-button">add</i></a>
 			</div>
 		</div>
 
