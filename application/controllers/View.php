@@ -25,7 +25,7 @@ class View extends CI_Controller {
 		$this->load->view('blocks/head.php');
 		//$this->load->view('blocks/header.php');
 		$this->load->view('views/month.php');
-		//$this->load->view('blocks/footer.php');
+		$this->load->view('blocks/stripes_footer.php');
 
 	}
 
@@ -35,7 +35,7 @@ class View extends CI_Controller {
 		$this->load->view('blocks/head.php');
 		//$this->load->view('blocks/header.php');
 		$this->load->view('views/day.php');
-		//$this->load->view('blocks/footer.php');
+		$this->load->view('blocks/stripes_footer.php');
 
 	}
 }

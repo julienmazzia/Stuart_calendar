@@ -4,7 +4,7 @@
 <?php $option = 5 ?>
 
 <div class="row">
-	<div  class="col s12 month_container">
+	<div  class="col s6 m10 offset-s1 offset-m1 month_container">
 		<a class="waves-effect waves-light btn add_button" href="../Form/event"><i class="material-icons right">add</i>Add a new event</a>
 		<div class="row ligne1">
 

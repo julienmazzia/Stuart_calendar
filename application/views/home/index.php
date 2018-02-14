@@ -73,9 +73,9 @@
       <i class="large material-icons">menu</i>
     </a>
     <ul>
-      <li><a class="btn-floating hover-float tooltipped red" data-position="top" data-delay="50" data-tooltip="Help us !"><i class="material-icons">free_breakfast</i></a></li>
+      <li><a class="btn-floating hover-float tooltipped red" data-position="top" data-delay="50" data-tooltip="Help us !" href="https://github.com/julienmazzia/Stuart_calendar"><i class="material-icons">free_breakfast</i></a></li>
       <li><a class="btn-floating hover-float tooltipped yellow darken-3" data-position="top" data-delay="50" data-tooltip="rate us !"><i class="material-icons">star</i></a></li>
-      <li><a class="btn-floating hover-float tooltipped green" data-position="top" data-delay="50" data-tooltip="Join us !"><i class="material-icons">sentiment_very_satisfied</i></a></li>
+      <li><a class="btn-floating hover-float tooltipped green" data-position="top" data-delay="50" data-tooltip="Join us !" href="../Account/createAccount"><i class="material-icons">sentiment_very_satisfied</i></a></li>
       <li><a class="btn-floating hover-float tooltipped blue" data-position="top" data-delay="50" data-tooltip="contact us !"><i class="material-icons">email</i></a></li>
     </ul>
   </div>

@@ -7,12 +7,12 @@ html{
 body {
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
-    background-color: #EF4836;
+    background-color: #F03434;
   }
 
  main {
    flex: 1 0 auto;
+   width: 100%;
  }
 
  nav{
@@ -75,9 +75,6 @@ body {
 
 .month_container{
 	padding-top: 0vh !important;
-    /* background-color: white; */
-    height: 52vh;
-    padding-left: 23vh !important;
 } 
 
 .month_block{
@@ -103,7 +100,7 @@ body {
 }
 
 .day_title{
-	background-color: #96281B;
+	background-color: #C0392B;
 	color: white;
 	width: 22vh;
     /*margin-left: -1.15vh;*/
@@ -265,4 +262,51 @@ body {
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.diagonal{
+    height: 2vh;
+    width: 30vh;
+    background-color: #F7CA18;
+    position: fixed;
+    transform: rotate(-65deg);
+    box-shadow: 5px 5px 15px black;
+}
+
+#stripe1{
+    right: -10vh;
+    bottom: 6vh;
+}
+
+#stripe2{
+    right: -10vh;
+    bottom: -4vh;
+}
+
+@media screen and (max-device-width: 1250px){
+    .add_button{
+        margin-left: 0px !important;       
+    }
+}
+
+
+@media screen and (max-device-width: 601px) {
+    .month_block { 
+        width: 100% !important;
+        margin-bottom: 10px !important;
+        height: 11vh !important;
+    }
+
+    .month_container{
+        margin-left: 4% !important;
+    }
+
+    .add_button{
+        margin-left: 0px !important;
+    }
+
+    .title1{
+        width: 30vh;
+        margin-left: 30vh;
+    }
 }

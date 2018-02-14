@@ -60,6 +60,10 @@ function showBlocks(day){
 				break;
 		}
 
-		$(container).append("<a href='../View/day?day="+dayName+" "+i+"'><div class='col s1 month_block'><div class='day_title center-align'>"+dayName+" "+i+"</div></div></a>");
+		$(container).append("<a href='../View/day?day="+dayName+" "+i+"'>"+
+			"<div class='col s1 m1 month_block'>"+
+			"<div class='day_title center-align'>"+dayName+" "+i+"</div>"+
+			"</div>"+
+			"</a>");
 	}
 }
