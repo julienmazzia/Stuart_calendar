@@ -84,70 +84,81 @@
     </div>
   </div>
 
+
+<!-- modals end -->
+
+
+
+
 <div class="contain">
-	<div><a href="../View/month" class="back"><i class="medium material-icons">arrow_back</i></a></div>
-<h2 style="margin-bottom: -9vh;" class="title1"><?php echo $_GET["day"] ?></h2>
 
-<div id="preview_background">
-	
-</div>
+	<div class="row">
+		<div class="col s1"><a href="../View/month" class="back"><i class="medium material-icons">arrow_back</i></a></div>
+		<h2  class="title1 col s2 offset-s2"><?php echo $_GET["day"] ?></h2>
+		<h3 style="color: white;" class="col s2 offset-s3">To Do List</h3>
+	</div>
 
-<div id="preview_task">
-	<div id="task_title" class="center-align">
-		<div class="row">
-			<h3 style="color: white;" class="col s5 offset-s3">To Do List</h3>
-			<div class="col s2  offset-s2" style="margin-top: 2vh;">
-				<a class="btn-floating btn-large waves-effect waves-light modal-trigger" style="background-color: #F7CA18;" href="#modal1"><i class="material-icons hover-button">add</i></a>
-			</div>
+	<div class="row">
+		<div id="preview_background" class="col s5 m5 offset-m1">
+			
 		</div>
 
-		<ul class="collapsible" data-collapsible="accordion">
-		  <li>
-		    <div class="collapsible-header">
-		      <i class="material-icons">rowing</i>
-		      <div id="coll2">Do sport</div>
-		      <span style="background-color: #ef5350" class="new badge" data-badge-caption="important"></span></div>
-		    <div class="collapsible-body coll-body">
-		    	<p class="desc_coll">Some description here, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello</p>
-		    	<div style="margin-bottom: 2vh;" class="separator2"></div>
-		    	<div class="row menu_coll">
-		    		<div class="col s2">
-			    		<a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons hover-button">edit</i></a>
-			    	</div>
-			    	<div class="col s2">
-			    		<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons hover-button">delete</i></a>
-			    	</div>
-			    	<div class="col s1 offset-s6">
-			    		<a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons hover-button">done</i></a>
-			    	</div>
-		    	</div>
-		    </div>
-		  </li>
-		  <li>
-		    <div class="collapsible-header">
-		      <i class="material-icons">event</i>
-		      Drink tea
-		      <span class="new badge" data-badge-caption="to do"></span></div>
-		    <div class="collapsible-body coll-body">
-		    <p class="desc_coll" id="desc2">Some other there</p>
-		    <div style="margin-bottom: 2vh;" class="separator2"></div>
-		    	<div class="row menu_coll">
-		    		<div class="col s2">
-			    		<a class="btn-floating btn-large waves-effect waves-light blue modal-trigger" href="#modal2"><i class="material-icons hover-button">edit</i></a>
-			    	</div>
-			    	<div class="col s2">
-			    		<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons hover-button">delete</i></a>
-			    	</div>
-			    	<div class="col s1 offset-s6">
-			    		<a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons hover-button">done</i></a>
-			    	</div>
-		    	</div>
-		    </div>
+		<div id="preview_task" class="col">
+			<div id="task_title" class="center-align">
+				<div class="row">
+					<div class="col s2  offset-s2" style="margin-top: 2vh;">
+						<a class="btn-floating btn-large waves-effect waves-light modal-trigger" style="background-color: #F7CA18;" href="#modal1"><i class="material-icons hover-button">add</i></a>
+					</div>
+				</div>
 
-		  </li>
-		</ul>
+				<ul class="collapsible" data-collapsible="accordion">
+				  <li>
+				    <div class="collapsible-header">
+				      <i class="material-icons">rowing</i>
+				      <div id="coll2">Do sport</div>
+				      <span style="background-color: #ef5350" class="new badge" data-badge-caption="important"></span></div>
+				    <div class="collapsible-body coll-body">
+				    	<p class="desc_coll">Some description here, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello</p>
+				    	<div style="margin-bottom: 2vh;" class="separator2"></div>
+				    	<div class="row menu_coll">
+				    		<div class="col s2">
+					    		<a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons hover-button">edit</i></a>
+					    	</div>
+					    	<div class="col s2">
+					    		<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons hover-button">delete</i></a>
+					    	</div>
+					    	<div class="col s1 offset-s6">
+					    		<a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons hover-button">done</i></a>
+					    	</div>
+				    	</div>
+				    </div>
+				  </li>
+				  <li>
+				    <div class="collapsible-header">
+				      <i class="material-icons">event</i>
+				      Drink tea
+				      <span class="new badge" data-badge-caption="to do"></span></div>
+				    <div class="collapsible-body coll-body">
+				    <p class="desc_coll" id="desc2">Some other there</p>
+				    <div style="margin-bottom: 2vh;" class="separator2"></div>
+				    	<div class="row menu_coll">
+				    		<div class="col s2">
+					    		<a class="btn-floating btn-large waves-effect waves-light blue modal-trigger" href="#modal2"><i class="material-icons hover-button">edit</i></a>
+					    	</div>
+					    	<div class="col s2">
+					    		<a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons hover-button">delete</i></a>
+					    	</div>
+					    	<div class="col s1 offset-s6">
+					    		<a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons hover-button">done</i></a>
+					    	</div>
+				    	</div>
+				    </div>
+
+				  </li>
+				</ul>
+			</div>
+		</div>
 	</div>
-</div>
 </div>
 
 <script type="text/javascript" src="<?php base_url(); ?>/assets/js/show_day.js"></script>

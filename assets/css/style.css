@@ -116,10 +116,7 @@ body {
 
 #preview_background{
 	height: 75vh;
-    width: 90vh;
-    margin-right: 48%;
     margin-top: 6%;
-	float: right;
 	overflow-y: scroll;
 }
 
@@ -128,6 +125,7 @@ body {
 	width: 65vh;
     margin-left: 62%;
 	margin-top: 2%;
+    position: absolute;
 }
 
 .hourZone{
