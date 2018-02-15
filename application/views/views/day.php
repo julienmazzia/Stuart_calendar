@@ -90,12 +90,12 @@
 
 
 
-<div class="contain">
+<div class="">
 
 	<div class="row">
 		<div class="col s1"><a href="../View/month" class="back"><i class="medium material-icons">arrow_back</i></a></div>
-		<h2  class="title1 col s2 offset-s2"><?php echo $_GET["day"] ?></h2>
-		<h2 class="title1 col s2 offset-s3">To Do List</h2>
+		<h2  class="title1 col s3 offset-s1 center-align"><?php echo $_GET["day"] ?></h2>
+		<h2 class="title1 col s2 offset-s3 center-align">To Do List</h2>
 	</div>
 
 	<div class="row">
@@ -107,7 +107,7 @@
 			<div id="task_title" class="center-align">
 				<div class="row">
 					<div class="col s2  offset-s2" style="margin-top: 2vh;">
-						<a class="btn-floating btn-large waves-effect waves-light modal-trigger" id="modal_btn" href="#modal1"><i class="material-icons hover-button">add</i></a>
+						<a class="btn-floating btn-large waves-effect waves-light modal-trigger" id="modal_btn" href="#modal1"><i class="material-icons hover-button2">add</i></a>
 					</div>
 				</div>
 

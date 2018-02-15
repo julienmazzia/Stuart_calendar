@@ -23,6 +23,12 @@ body {
 	padding-bottom: 20px;
 }
 
+.background_section{
+	padding-top: 2vh;
+	position:  relative;
+	z-index: -1;
+}
+
 .bold{
 	font-weight: bold;
 }

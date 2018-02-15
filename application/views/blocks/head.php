@@ -15,7 +15,7 @@
       rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/themes/style-spanish.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/themes/style-brazil.css">
 
 </head>
 

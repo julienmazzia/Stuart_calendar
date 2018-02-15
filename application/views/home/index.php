@@ -24,7 +24,7 @@
 
     <div class="border dark-1 shadow-bottom"></div>
 
-    <div style="margin-top: 2vh;" class="row light-2">
+    <div class="background_section row light-2">
     	<div class="col s6 section">
     		<h4 class="bold">High visibility</h4>
     		<h5>With Stuart, you can easely see your events in the day.</h5>
