@@ -48,6 +48,10 @@ body {
     background-color: black !important;
 }
 
+#modal_btn{
+    box-shadow: 5px 5px 20px black;    
+}
+
 .hover-button{
     color: black !important;
 }
@@ -57,7 +61,7 @@ body {
 }
 
 .title1{
-	color: floralwhite;
+	color: white;
     margin-left: 45vh;
 }
 
@@ -68,6 +72,7 @@ body {
 .back{
 	color: #F7CA18;
 	position: fixed;
+    text-shadow: 5px 5px 10px black;
 }
 
 .slider .indicators .indicator-item.active{
@@ -87,25 +92,26 @@ body {
     padding-left: 0px !important;
     margin-right: 35px;
     box-shadow: 3px 3px 10px black;
+    padding: 0 0rem !important;
+    margin-bottom: 5px;
 }
 
 .month_block:hover{
-	box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.3);*/
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.25);
+    -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.25);   
+    -ms-transform: scale(1.1);   
     -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.25);
+    -moz-transform: scale(1.1);
     transition: all 200ms ease-in;
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
 
 .day_title{
 	background-color: #C0392B;
 	color: white;
-	width: 22vh;
     /*margin-left: -1.15vh;*/
 }
 
@@ -119,16 +125,19 @@ body {
 
 #preview_background{
 	height: 75vh;
-    margin-top: 6%;
 	overflow-y: scroll;
+    box-shadow: 5px 5px 20px black;
+    background-color: white;
 }
 
 #preview_task{
-	height: 79vh;
-	width: 65vh;
     margin-left: 62%;
 	margin-top: 2%;
     position: absolute;
+}
+
+.collapsible{
+    box-shadow: 5px 5px 20px black;
 }
 
 .hourZone{
@@ -155,7 +164,7 @@ body {
 }
  
 #preview_background::-webkit-scrollbar-track {
-    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
  
 #preview_background::-webkit-scrollbar-thumb {

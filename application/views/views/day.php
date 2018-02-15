@@ -95,7 +95,7 @@
 	<div class="row">
 		<div class="col s1"><a href="../View/month" class="back"><i class="medium material-icons">arrow_back</i></a></div>
 		<h2  class="title1 col s2 offset-s2"><?php echo $_GET["day"] ?></h2>
-		<h3 style="color: white;" class="col s2 offset-s3">To Do List</h3>
+		<h2 class="title1 col s2 offset-s3">To Do List</h2>
 	</div>
 
 	<div class="row">
