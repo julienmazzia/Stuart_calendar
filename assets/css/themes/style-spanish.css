@@ -52,8 +52,8 @@ body{
     background-color: #C0392B;
 }
 
-.popup .popuptext{
-	background-color: #C0392B;
+.popup .popuptext::after {
+    border-color: #B0281A transparent transparent transparent;
 }
 
 .diagonal{

@@ -27,7 +27,7 @@ body{
 }
 
 #preview_background::-webkit-scrollbar-thumb {
-	background-color: white;
+	background-color: #013243;
 }
 
 .diagonal{
@@ -41,11 +41,11 @@ body{
 
 /* group 3 */
 .popup .popuptext{
-    background-color: white;
+    background-color: #013243;
 }
 
 .popup .popuptext::after {
-    border-color: #FABE58 transparent transparent transparent;
+    border-color: #002132 transparent transparent transparent;
 }
 
 

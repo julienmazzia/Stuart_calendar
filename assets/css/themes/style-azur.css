@@ -42,10 +42,11 @@ body{
 /* group 3 */
 .popup .popuptext{
     background-color: #F7CA18;
+    color: black;
 }
 
 .popup .popuptext::after {
-    border-color: #F5D76E transparent transparent transparent;
+    border-color: #E6B907 transparent transparent transparent;
 }
 
 
