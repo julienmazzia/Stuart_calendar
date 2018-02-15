@@ -1,0 +1,75 @@
+body{
+    background-color: #19B5FE;	
+}
+
+/* group 1 */
+.day_title{
+	background-color: #1E8BC3;
+}
+
+/* group 2 */
+.btn{
+	background-color: #F7CA18 !important;
+	color: black
+}
+
+.btn:hover{
+	color: #F7CA18;
+    background-color: black !important;
+}
+
+.back{
+	color: #F7CA18;
+}
+
+.hover-button:hover{
+	color: black;
+}
+
+#preview_background::-webkit-scrollbar-thumb {
+	background-color: #F7CA18;
+}
+
+.diagonal{
+    background-color: #F7CA18;
+}
+
+#modal_btn{
+	background-color: #F7CA18;
+}
+
+
+/* group 3 */
+.popup .popuptext{
+    background-color: #F7CA18;
+}
+
+.popup .popuptext::after {
+    border-color: #F5D76E transparent transparent transparent;
+}
+
+
+/* group 4 */
+.slider .indicators .indicator-item.active{
+	background-color: #CCBC1E !important;
+}
+
+
+.month_block{
+	background-color: white;
+}
+
+.coll-body{
+	background-color: #ccc;
+}
+
+.event_block{
+	background-color: black;
+}
+
+#container_event{
+	background-color: white;
+}
+
+
+

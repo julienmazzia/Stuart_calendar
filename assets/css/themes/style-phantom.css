@@ -1,0 +1,75 @@
+body{
+    background-color: #2C3E50;	
+}
+
+/* group 1 */
+.day_title{
+	background-color: #013243;
+}
+
+/* group 2 */
+.btn{
+	background-color: white !important;
+	color: black
+}
+
+.btn:hover{
+	color: white;
+    background-color: black !important;
+}
+
+.back{
+	color: white;
+}
+
+.hover-button:hover{
+	color: black;
+}
+
+#preview_background::-webkit-scrollbar-thumb {
+	background-color: white;
+}
+
+.diagonal{
+    background-color: white;
+}
+
+#modal_btn{
+	background-color: white;
+}
+
+
+/* group 3 */
+.popup .popuptext{
+    background-color: white;
+}
+
+.popup .popuptext::after {
+    border-color: #FABE58 transparent transparent transparent;
+}
+
+
+/* group 4 */
+.slider .indicators .indicator-item.active{
+	background-color: #CCBC1E !important;
+}
+
+
+.month_block{
+	background-color: white;
+}
+
+.coll-body{
+	background-color: #ccc;
+}
+
+.event_block{
+	background-color: black;
+}
+
+#container_event{
+	background-color: white;
+}
+
+
+

@@ -14,15 +14,6 @@ body {
    width: 100%;
  }
 
- nav{
-	background-color: #DB0A5B !important;
-}
-
-.page-footer{
-	background-color: #DB0A5B !important;
-	color: white !important;
-}
-
 .separator1{
 	width: 83vh;
 	height: 1px;
@@ -38,40 +29,17 @@ body {
 	color: white !important;
 }
 
-.btn{
-	background-color: #F7CA18 !important;
-	color: black
-}
-
-.btn:hover{
-	color: #F7CA18;
-    background-color: black !important;
-}
-
-.hover-button{
-    color: black !important;
-}
-
-.hover-button:hover{
-	color: white !important;
-}
-
 .title1{
-	color: floralwhite;
+	color: white;
     margin-left: 45vh;
 }
 
 .contain{
-	margin-top: 5vh;
+	margin-top: 10vh;
 }
 
 .back{
-	color: #F7CA18;
 	position: fixed;
-}
-
-.slider .indicators .indicator-item.active{
-	background-color: #CCBC1E !important;
 }
 
 /* month view */
@@ -81,7 +49,6 @@ body {
 } 
 
 .month_block{
-	background-color: white;
     height: 13vh;
     width: 22vh !important;
     padding-left: 0px !important;
@@ -103,7 +70,6 @@ body {
 }
 
 .day_title{
-	background-color: #C0392B;
 	color: white;
 	width: 22vh;
     /*margin-left: -1.15vh;*/
@@ -146,7 +112,6 @@ body {
 }
 
 .coll-body{
-	background-color: #ccc;
     color: black;
 }
 
@@ -159,10 +124,8 @@ body {
 }
  
 #preview_background::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
   outline: 1px solid slategrey;
   border-radius: 10px;
-	background-color: #F7CA18;
 }
 
 .container_separator{
@@ -181,7 +144,6 @@ body {
 
 .event_block{
 	margin-left: 8vh;
-	background-color: #CF000F;
 	color: white;
 	width: 30vh;
     height: 3vh;
@@ -194,7 +156,6 @@ body {
 /* form event */
 
 #container_event{
-	background-color: white;
 	width: 115vh;
     padding-left: 6vh;
     padding-top: 1vh;
@@ -243,6 +204,7 @@ body {
     margin-left: -74px;
     border-width: 5px;
     border-style: solid;
+    border-color: #96281B transparent transparent transparent;
 }
 
 /* Toggle this class - hide and show the popup */
@@ -266,7 +228,6 @@ body {
 .diagonal{
     height: 2vh;
     width: 30vh;
-    background-color: #F7CA18;
     position: fixed;
     transform: rotate(-65deg);
     box-shadow: 5px 5px 15px black;

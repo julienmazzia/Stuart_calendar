@@ -1,0 +1,65 @@
+body{
+    background-color: #F03434;	
+}
+
+.btn{
+	background-color: #F7CA18 !important;
+	color: black
+}
+
+.btn:hover{
+	color: #F7CA18;
+    background-color: black !important;
+}
+
+.hover-button:hover{
+	color: black;
+}
+
+.back{
+	color: #F7CA18;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #CCBC1E !important;
+}
+
+.month_block{
+	background-color: white;
+}
+
+.day_title{
+	background-color: #C0392B;
+}
+
+.coll-body{
+	background-color: #ccc;
+}
+
+#preview_background::-webkit-scrollbar-thumb {
+	background-color: #F7CA18;
+}
+
+.event_block{
+	background-color: #CF000F;
+}
+
+#container_event{
+	background-color: white;
+}
+
+.popup .popuptext{
+    background-color: #C0392B;
+}
+
+.popup .popuptext{
+	background-color: #C0392B;
+}
+
+.diagonal{
+    background-color: #F7CA18;
+}
+
+#modal_btn{
+	background-color: #F7CA18;
+}

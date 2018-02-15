@@ -107,7 +107,7 @@
 			<div id="task_title" class="center-align">
 				<div class="row">
 					<div class="col s2  offset-s2" style="margin-top: 2vh;">
-						<a class="btn-floating btn-large waves-effect waves-light modal-trigger" style="background-color: #F7CA18;" href="#modal1"><i class="material-icons hover-button">add</i></a>
+						<a class="btn-floating btn-large waves-effect waves-light modal-trigger" id="modal_btn" href="#modal1"><i class="material-icons hover-button">add</i></a>
 					</div>
 				</div>
 
