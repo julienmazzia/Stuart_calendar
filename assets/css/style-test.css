@@ -28,7 +28,7 @@ body {
 }
 
 .background_section{
-	padding-top: 2vh;
+	padding-top: 10vh;
 	position:  relative;
 	z-index: -1;
 }

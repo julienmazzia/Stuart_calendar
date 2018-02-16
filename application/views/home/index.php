@@ -11,18 +11,16 @@
       	<div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>-->
 
-    <div class="background_section row text-padding light-3">
+    <div class="background_section row text-padding light-2 shadow-bottom">
 	    	
     	<img class="col s4 offset-s1 img-top" src="../<?php base_url(); ?>assets/images/ipad.png">
 
 		<div class="col s6 offset-s1 section">
 		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
-		    <h5>Stuart assemble the forces of different calendars, always to be faster, easy to handle and to have preview of your actions.</h5>
+		    <h5>Stuart assemble the strenghts of different calendars, always in the way to be faster and easier of use.</h5>
 		    <h5 class="bold">It had never be so simple to organize your life !</h5>
 		</div>
     </div>
-
-    <div class="border dark-1 shadow-bottom"></div>
 
     <div class="background_section row light-2">
     	<div class="col s6 section">
@@ -33,7 +31,7 @@
     	<img class="col s5 img-top" src="../<?php base_url(); ?>assets/images/planning.png">
     </div>
 
-    <div class="border dark-2 shadow-bottom"></div>
+    <div class="border dark-1 shadow-bottom"></div>
 
     <div class="parallax-container" id="par2">
         <div class="row">
