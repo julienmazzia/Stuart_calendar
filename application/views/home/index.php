@@ -7,13 +7,13 @@
 
 	<div class="border dark-1 shadow-bottom"></div>
 
-	<div class="parallax-container" id="par1">
+	<!--<div class="parallax-container" id="par1">
       	<div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
-    </div>
+    </div>-->
 
-    <div class="row text-padding light-3">
+    <div class="background_section row text-padding light-3">
 	    	
-    	<img class="col s4 offset-s1 img-top" src="../<?php base_url(); ?>assets/images/aircraft.png">
+    	<img class="col s4 offset-s1 img-top" src="../<?php base_url(); ?>assets/images/ipad.png">
 
 		<div class="col s6 offset-s1 section">
 		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
@@ -52,7 +52,7 @@
 		    <!--<h5>I had, for a long time, used different calendars in my life. But I always had many problems </br><span class="pop">“ It's too long ” “ I can't preview anything ” “ Gasp ! ”</span></br> Then one day, I told myself : “ Why didn't I create my own calendar ? ” </br> Then this project came thrue ! </br></br> But in fact, it's cool to have my calendar but it's better if anyone can use and enjoy it ?</h5>-->
 		</div>
 
-      <div class="col s4 multiple-borders">
+      <!--<div class="col s4 multiple-borders">
 	    		<div class="row margin">
 	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/dinner.jpeg">
 	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/party.jpeg">
@@ -61,7 +61,7 @@
 	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/meeting.jpeg">
 	    			<img class="col s6 effect" src="../<?php base_url(); ?>assets/images/concert.jpeg">
 	    		</div>
-    	</div>
+    	</div>-->
 
     </div>
 

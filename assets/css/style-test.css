@@ -18,6 +18,10 @@ body {
 	background-color: #DB0A5B !important;
 }
 
+.page-footer{
+	background-color: #81CFE0 !important;
+}
+
 .row{
 	margin-bottom: 0px !important;
 	padding-bottom: 20px;
@@ -34,7 +38,7 @@ body {
 }
 
 .btn, .btn-large{
-	background-color: #CCBC1E !important;
+	background-color: #BC9F77 !important;
 
 }
 
@@ -77,23 +81,23 @@ body {
 }
 
 .light-1{
-	background-color: #E80B60 !important;
+	background-color: #1E8BC3 !important;
 }
 
 .light-2{
-	background-color: #C10950 !important;
+	background-color: #2574A9 !important;
 }
 
 .light-3{
-	background-color: #DB0A5B !important;
+	background-color: #446CB3 !important;
 }
 
 .dark-1{
-	background-color : #B7084C !important;
+	background-color : #1F3A93 !important;
 }
 
 .dark-2{
-	background-color : #5B0426 !important;
+	background-color : #013243 !important;
 }
 
 .multiple-borders{
