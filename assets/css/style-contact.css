@@ -1,0 +1,41 @@
+/* General */
+
+html{
+	font-family: 'Exo', sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+    background-color: #2574A9;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+.btn{
+	background-color: #465BA9 !important;
+}
+
+.btn:hover{
+	color: #465BA9;
+    background-color: white !important;
+}
+
+input{
+    color: black;
+}
+
+label{
+    color: white !important;
+}
+
+textarea{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid grey !important;
+    min-height: 150px !important;
+}

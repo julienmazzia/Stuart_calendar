@@ -34,4 +34,12 @@ class Home extends CI_Controller {
 		$this->load->view('blocks/footer.php');
 
 	}
+
+	public function contact()
+	{
+		$this->load->helper('url');
+		$this->load->view('blocks/head-contact.php');
+		$this->load->view('contact/form.php');
+
+	}
 }

@@ -11,13 +11,12 @@
 	  <!-- Compiled and minified JavaScript Materialize -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/themes/style-brazil.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/style-contact.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 
 </head>
 
 <main>
-<!--<?php echo date('l j F Y'); ?>-->
