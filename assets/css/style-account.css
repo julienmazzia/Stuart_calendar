@@ -19,13 +19,12 @@ main {
 }
 
 .btn{
-	background-color: #CCBC1E !important;
-	color: black;
+	background-color: #465BA9 !important;
 }
 
 .btn:hover{
-	color: #FFE90C;
-    background-color: black !important;
+	color: #465BA9;
+    background-color: white !important;
 }
 
  #form_container{
