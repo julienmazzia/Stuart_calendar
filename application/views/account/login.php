@@ -5,13 +5,13 @@
 				<h3 class="center-align">Get connected !</h3>
 				<div class="row" style="margin-top: 5vh;">
 					<div class="input-field col s6 offset-s3">
-			          <input placeholder="Placeholder" id="Username" type="text" class="validate" required="true">
+			          <input placeholder="" id="Username" type="text" class="validate" required="true">
 			          <label for="Username">Username</label>
 			        </div>
 				</div>
 				<div class="row">
 					<div class="input-field col s6 offset-s3">
-			          <input placeholder="Placeholder" id="password" type="password" class="validate" required="true">
+			          <input placeholder="" id="password" type="password" class="validate" required="true">
 			          <label for="password">password</label>
 			        </div>
 				</div>

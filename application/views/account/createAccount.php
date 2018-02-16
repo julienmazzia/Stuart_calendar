@@ -5,21 +5,21 @@
 				<h3 class="center-align">Create your account !</h3>
 				<div class="row" style="margin-top: 5vh;">
 					<div class="input-field col s6 offset-s2">
-			          <input placeholder="Placeholder" id="Username" type="text" class="validate" required="true">
+			          <input placeholder="ex : Batman" id="Username" type="text" class="validate" required="true">
 			          <label for="Username">Username</label>
 			        </div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s6 offset-s2">
-			          <input placeholder="Placeholder" id="mail" type="email" class="validate" required="true">
+			          <input placeholder="example@ex.com" id="mail" type="email" class="validate" required="true">
 			          <label for="mail">mail</label>
 			        </div>
 				</div>
 
 				<div class="row">
 					<div class="input-field col s6 offset-s2">
-			          <input placeholder="Placeholder" id="password" type="password" class="validate" required="true">
+			          <input placeholder="" id="password" type="password" class="validate" required="true">
 			          <label for="password">password</label>
 			        </div>
 				</div>

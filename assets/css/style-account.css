@@ -9,8 +9,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     color: white;
-    background-color: #DB0A5B;
-    border: 20px solid #994465;
+    background-color: #446CB3;
+    border: 20px solid #013243;
     padding-top: 18vh;
   }
 
@@ -29,8 +29,7 @@ main {
 }
 
  #form_container{
- 	background-color: white;
- 	color: black;
+ 	background-color: #013243;
     height: 60vh;
  }
 
@@ -39,8 +38,11 @@ main {
  }
 
  label{
- 	font-size: 2vh !important;
-    color: black !important
+ 	font-size: 2.5vh !important;
+ }
+
+ input#Username{
+    font-size: 1.5vh !important;
  }
 
  @media screen and (max-device-width: 450px) {
