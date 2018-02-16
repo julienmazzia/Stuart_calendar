@@ -107,13 +107,13 @@ body {
 .month_block:hover{
 	box-shadow: 3px 3px 10px black;
     z-index: 2;
-    -webkit-transition: all 200ms ease-in;
+    -webkit-transition: all 100ms ease-in;
     -webkit-transform: scale(1.1);
-    -ms-transition: all 200ms ease-in;
+    -ms-transition: all 100ms ease-in;
     -ms-transform: scale(1.1);   
-    -moz-transition: all 200ms ease-in;
+    -moz-transition: all 100ms ease-in;
     -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
+    transition: all 100ms ease-in;
     transform: scale(1.1);
 }
 

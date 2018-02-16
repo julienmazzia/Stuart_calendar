@@ -1,5 +1,5 @@
 body{
-    background-color: #E26A6A;	
+    background-color: #F1A9A0;	
 }
 
 /* group 1 */
@@ -9,17 +9,17 @@ body{
 
 /* group 2 */
 .btn{
-	background-color: #F62459 !important;
+	background-color: #D2527F !important;
 	color: black
 }
 
 .btn:hover{
-	color: #F62459;
+	color: #D2527F;
     background-color: black !important;
 }
 
 .back{
-	color: #F62459;
+	color: #D2527F;
 }
 
 .hover-button:hover{
@@ -27,21 +27,21 @@ body{
 }
 
 #preview_background::-webkit-scrollbar-thumb {
-	background-color: #F62459;
+	background-color: #D2527F;
 }
 
 .diagonal{
-    background-color: #F62459;
+    background-color: #D2527F;
 }
 
 #modal_btn{
-	background-color: #F62459;
+	background-color: #D2527F;
 }
 
 
 /* group 3 */
 .popup .popuptext{
-    background-color: #F62459;
+    background-color: #D2527F;
 }
 
 .popup .popuptext::after {
