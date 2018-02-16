@@ -13,9 +13,9 @@
 
     <div class="background_section row text-padding light-2 shadow-bottom">
 	    	
-    	<img class="col s4 offset-s1 img-top" src="../<?php base_url(); ?>assets/images/ipad.png">
+    	<img style="    margin-left: 5vh; margin-right: 11vh;" class="col s5 offset-s1 img-top no_padding shadow_img" src="../<?php base_url(); ?>assets/images/index.png">
 
-		<div class="col s6 offset-s1 section">
+		<div class="col s6 section">
 		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
 		    <h5>Stuart assemble the strenghts of different calendars, always in the way to be faster and easier of use.</h5>
 		    <h5 class="bold">It had never be so simple to organize your life !</h5>
@@ -28,7 +28,7 @@
     		<h5>With Stuart, you can easely see your events in the day.</h5>
     		<h5>You can change the duration by simply resize him. More quick solutions to see !</h5>
     	</div>
-    	<img class="col s5 img-top" src="../<?php base_url(); ?>assets/images/planning.png">
+    	<img class="col s5 img-top no_padding shadow_img" src="../<?php base_url(); ?>assets/images/add.png">
     </div>
 
     <div class="border dark-1 shadow-bottom"></div>
@@ -37,7 +37,7 @@
         <div class="row">
     		<h4 class="parallax-title col s3">With Stuart you can add any type of appointment, any time, anywhere. </br>With just some click !</h4>
         </div>
-      <div class="parallax"><img src="../<?php base_url(); ?>assets/images/add.png"></div>
+      <div class="parallax"><img src="../<?php base_url(); ?>assets/images/ipad.png"></div>
 	</div>
 
 	<div class="border dark-1 shadow-top"></div>

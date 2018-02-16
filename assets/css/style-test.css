@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     color: white;
-    background-color: #C10950;
+    background-color: #446CB3;
   }
 
  main {
@@ -25,6 +25,14 @@ body {
 .row{
 	margin-bottom: 0px !important;
 	padding-bottom: 20px;
+}
+
+.no_padding{
+	padding: 0px !important;
+}
+
+.shadow_img{
+	box-shadow: 5px 5px 20px black;
 }
 
 .background_section{
@@ -73,7 +81,7 @@ body {
 }
 
 #par2 {
-          height: 850px;
+    height: 850px;
 }
 
 .section{
@@ -123,5 +131,12 @@ body {
 @media screen and (max-device-width: 990px) {
 	h3 { 
 		font-size: 2.0em;
+	}
+}
+
+@media screen and (max-device-width: 1450px) {
+	.no_padding { 
+		margin-left: 8.33% !important;
+		margin-right: 0px !important;
 	}
 }
