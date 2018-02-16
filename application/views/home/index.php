@@ -13,7 +13,7 @@
 
     <div class="background_section row text-padding light-2 shadow-bottom">
 	    	
-    	<img style="    margin-left: 5vh; margin-right: 11vh;" class="col s5 offset-s1 img-top no_padding shadow_img" src="../<?php base_url(); ?>assets/images/index.png">
+    	<img style="margin-left: 5vh; margin-right: 11vh;" class="col s5 offset-s1 img-top no_padding shadow_img hover_img" src="../<?php base_url(); ?>assets/images/index.png">
 
 		<div class="col s6 section">
 		    <h4 class="bold">Stuart is more than a calendar, it is the calendar !</h4> 
@@ -30,6 +30,21 @@
     	</div>
     	<img class="col s5 img-top no_padding shadow_img" src="../<?php base_url(); ?>assets/images/add.png">
     </div>
+
+    <!--<div class="light-2 row">
+      <article class="col s2 offset-s2 light-1 shadow_img">
+        <h4 class="center-align">Calendar</h4>
+        <h5></h5>
+      </article>
+      <article class="col s2 offset-s1 dark-1 shadow_img">
+        <h4 class="center-align">Task manager</h4>
+        <h5>Stuart include a task manager, it allow you to organize your day in addition of your events</h5>
+      </article>
+      <article class="col s2 offset-s1 dark-2 shadow_img">
+        <h4 class="center-align">Reactive</h4>
+        <h5></h5>
+      </article>
+    </div>-->
 
     <div class="border dark-1 shadow-bottom"></div>
 
@@ -83,5 +98,6 @@
     	$(document).ready(function(){
 	      $('.parallax').parallax();
 	      $('.tooltipped').tooltip({delay: 50});
+        $('.collapsible').collapsible();
 	    });
     </script>

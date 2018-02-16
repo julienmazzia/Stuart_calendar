@@ -41,6 +41,10 @@ body {
 	z-index: -1;
 }
 
+.collapsible{
+	color: black;
+}
+
 .bold{
 	font-weight: bold;
 }
@@ -55,16 +59,20 @@ body {
 	color: #BC9F77;
 }
 
+.btn-floating{
+	box-shadow: 5px 5px 10px black;
+}
+
 .border{
 	height: 15px;
 }
 
 .shadow-top{
-	box-shadow: 0px -8px 20px black;
+	box-shadow: 0px -5px 20px black;
 }
 
 .shadow-bottom{
-	box-shadow: 0px 8px 20px black;
+	box-shadow: 0px 5px 20px black;
 }
 
 .border-dark{
@@ -126,6 +134,10 @@ body {
 
 .img-top{
 	margin-top: 15px;
+}
+
+article{
+	height: 400px;
 }
 
 @media screen and (max-device-width: 990px) {
