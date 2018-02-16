@@ -19,6 +19,9 @@
         <div class="input-field col s12">
           <textarea id="textarea1" class="materialize-textarea"></textarea>
         </div>
+        <button style="margin-left: 1.25vh;" class="btn waves-effect waves-light col" type="submit" name="action">Submit
+  	    <i class="material-icons right">send</i>
+  	  </button>
       </div>
     </form>
   </div>
