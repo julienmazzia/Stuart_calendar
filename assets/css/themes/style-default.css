@@ -1,25 +1,25 @@
 body{
-    background-color: #BDC3C7;	
+    background-color: #446CB3;	
 }
 
 /* group 1 */
 .day_title{
-	background-color: #6C7A89;
+	background-color: #1F3A93;
 }
 
 /* group 2 */
 .btn{
-	background-color: #95A5A6 !important;
+	background-color: #BC9F77 !important;
 	color: black
 }
 
 .btn:hover{
-	color: #95A5A6;
+	color: #BC9F77;
     background-color: black !important;
 }
 
 .back{
-	color: #95A5A6;
+	color: #BC9F77;
 }
 
 .hover-button:hover{
@@ -27,21 +27,21 @@ body{
 }
 
 #preview_background::-webkit-scrollbar-thumb {
-	background-color: #95A5A6;
+	background-color: #BC9F77;
 }
 
 .diagonal{
-    background-color: #95A5A6;
+    background-color: #BC9F77;
 }
 
 #modal_btn{
-	background-color: #95A5A6;
+	background-color: #BC9F77;
 }
 
 
 /* group 3 */
 .popup .popuptext{
-    background-color: #95A5A6;
+    background-color: #BC9F77;
 }
 
 .popup .popuptext::after {
