@@ -7,6 +7,38 @@
 
 	<div class="border dark-1 shadow-bottom"></div>
 
+   <div class="slider">
+    <ul class="slides" style="height: 440px; position: relative; z-index: -1;">
+      <li>
+        <img src="../<?php base_url(); ?>assets/images/background6.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Welcome to the smartest calendar !</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="../<?php base_url(); ?>assets/images/default.jpeg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Quick, easy, strong</h3>
+          <h5 class="light grey-text text-lighten-3">All is designed for you</h5>
+        </div>
+      </li>
+      <li>
+        <img src="../<?php base_url(); ?>assets/images/home.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Experience</h3>
+          <h5 class="light grey-text text-lighten-3">The power of Stuart !</h5>
+        </div>
+      </li>
+      <li>
+        <img src="../<?php base_url(); ?>assets/images/boat.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>You will never go back to the dark ages</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+
 	<!--<div class="parallax-container" id="par1">
       	<div class="parallax"><img src="../<?php base_url(); ?>assets/images/background6.jpg"></div>
     </div>-->
@@ -104,5 +136,6 @@
 	      $('.parallax').parallax();
 	      $('.tooltipped').tooltip({delay: 50});
         $('.collapsible').collapsible();
+        $('.slider').slider();
 	    });
     </script>

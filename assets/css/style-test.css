@@ -140,6 +140,14 @@ article{
 	height: 400px;
 }
 
+.slider .slides {
+	height: 440px !important;
+}
+
+li.indicator-item.active{
+	background-color: #013243 !important;
+}
+
 @media screen and (max-device-width: 990px) {
 	h3 { 
 		font-size: 2.0em;
