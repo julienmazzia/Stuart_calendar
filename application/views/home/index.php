@@ -1,4 +1,3 @@
-
 	<div class="row light-1">
 		<h3 class="col s8 offset-l1">I'm welcome to Stuart, what does it mean ?</h3>
 		<a href="../Account/login" class="col account"><button class="btn">Sign in</button></a>
@@ -132,10 +131,17 @@
 
 
     <script type="text/javascript">
+      $('main').hide();
+      $('.progress').show();
     	$(document).ready(function(){
 	      $('.parallax').parallax();
 	      $('.tooltipped').tooltip({delay: 50});
         $('.collapsible').collapsible();
         $('.slider').slider();
 	    });
+
+      $(window).on('load', function (){
+        $('main').show();
+        $('.progress').hide();   
+      })
     </script>
