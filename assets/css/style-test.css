@@ -154,6 +154,42 @@ li.indicator-item.active{
     width: 100vh;
 }
 
+.up{
+    margin-top: -0.5vh;
+}
+
+#contact{
+    background-color: #2574A9;
+    margin-top: -4vh;
+}
+
+input{
+    color: black;
+    border: none;
+}
+
+input::placeholder{
+    color: #AAA !important;
+}
+
+label{
+    color: white !important;
+    font-size: 2.5vh !important;
+    margin-top: -1vh !important;
+}
+
+textarea{
+    background-color: white !important;
+    color: black !important;
+    min-height: 150px !important;
+}
+
+@media screen and (max-device-width: 450px) {
+    label { 
+        font-size: 1.5vh !important;
+    }
+}
+
 @media screen and (max-device-width: 990px) {
 	h3 { 
 		font-size: 2.0em;
