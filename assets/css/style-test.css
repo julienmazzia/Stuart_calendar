@@ -184,6 +184,10 @@ textarea{
     min-height: 150px !important;
 }
 
+.no-z-index{
+	z-index: 0 !important;
+}
+
 @media screen and (max-device-width: 450px) {
     label { 
         font-size: 1.5vh !important;

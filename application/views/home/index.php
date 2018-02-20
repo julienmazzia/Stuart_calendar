@@ -109,9 +109,9 @@
 
     </div>
 
-    <div class="border dark-1 shadow-top"></div>
+    <div class="border dark-1 shadow-top" style="z-index: 1;"></div>
 
-<div id="contact">
+<div id="contact" class="" style="">
   <div class="container">
     <h1>
       Contact us !
