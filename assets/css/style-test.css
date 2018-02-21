@@ -1,3 +1,5 @@
+/* General */
+
 html{
 	font-family: 'Exo', sans-serif;
 }
@@ -26,24 +28,6 @@ body {
 	padding-bottom: 20px;
 }
 
-.no_padding{
-	padding: 0px !important;
-}
-
-.shadow_img{
-	box-shadow: 5px 5px 20px black;
-}
-
-.background_section{
-	padding-top: 10vh;
-	position:  relative;
-	z-index: -1;
-}
-
-.collapsible{
-	color: black;
-}
-
 .bold{
 	font-weight: bold;
 }
@@ -62,39 +46,14 @@ body {
 	box-shadow: 5px 5px 10px black;
 }
 
-.border{
-	height: 15px;
+.progress{
+	position: fixed;
+    margin-top: 50vh;
+    margin-left: 50vh;
+    width: 100vh;
 }
 
-.shadow-top{
-	box-shadow: 0px -5px 20px black;
-}
-
-.shadow-bottom{
-	box-shadow: 0px 5px 20px black;
-}
-
-.border-dark{
-	background-color: #5B0426;
-	height: 15px;
-}
-
-.account{
-	margin-top: 1.6%;
-}
-
-#par1{
-	height: 350px;
-}
-
-#par2 {
-    height: 850px;
-}
-
-.section{
-	margin-top: 2%;
-}
-
+/*colors*/
 .light-1{
 	background-color: #1E8BC3 !important;
 }
@@ -114,6 +73,23 @@ body {
 .dark-2{
 	background-color : #013243 !important;
 }
+
+/* shadows */
+
+.shadow_img{
+	box-shadow: 5px 5px 20px black;
+}
+
+.shadow-top{
+	box-shadow: 0px -5px 20px black;
+}
+
+.shadow-bottom{
+	box-shadow: 0px 5px 20px black;
+}
+
+
+/*double border images */
 
 .multiple-borders{
 	box-shadow: 0px 0px 0px 7px #994465;
@@ -135,28 +111,22 @@ body {
 	margin-top: 15px;
 }
 
-article{
-	height: 400px;
+/* parallax */
+
+#par1{
+	height: 350px;
 }
 
-.slider .slides {
-	height: 440px !important;
+#par2 {
+    height: 850px;
 }
 
-li.indicator-item.active{
-	background-color: #013243 !important;
+
+.no_padding{
+	padding: 0px !important;
 }
 
-.progress{
-	position: fixed;
-    margin-top: 50vh;
-    margin-left: 50vh;
-    width: 100vh;
-}
-
-.up{
-    margin-top: -0.5vh;
-}
+/* contact form */
 
 #contact{
     background-color: #2574A9;
@@ -184,10 +154,61 @@ textarea{
     min-height: 150px !important;
 }
 
+/* else */
+
+.background_section{
+	padding-top: 10vh;
+	position:  relative;
+	z-index: -1;
+}
+
+.collapsible{
+	color: black;
+}
+
+.border{
+	height: 15px;
+}
+
+
+
+.border-dark{
+	background-color: #5B0426;
+	height: 15px;
+}
+
+.account{
+	margin-top: 1.6%;
+}
+
+
+
+.section{
+	margin-top: 2%;
+}
+
+article{
+	height: 400px;
+}
+
+.slider .slides {
+	height: 440px !important;
+}
+
+li.indicator-item.active{
+	background-color: #013243 !important;
+}
+
+.up{
+    margin-top: -0.5vh;
+}
+
 .no-z-index{
 	z-index: 0 !important;
 }
 
+
+/* responvie */
 @media screen and (max-device-width: 450px) {
     label { 
         font-size: 1.5vh !important;

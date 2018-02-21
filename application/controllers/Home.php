@@ -18,15 +18,15 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	/*public function index()
 	{
 		$this->load->helper('url');
 		$this->load->view('blocks/head.php');
 		$this->load->view('home/home.php');
 
-	}
+	}*/
 
-	public function index2()
+	public function index()
 	{
 		$this->load->helper('url');
 		$this->load->view('blocks/head-test.php');

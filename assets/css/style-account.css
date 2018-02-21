@@ -27,6 +27,8 @@ main {
     background-color: white !important;
 }
 
+/*form*/
+
  #form_container{
  	background-color: #013243;
     height: 60vh;
@@ -44,6 +46,8 @@ main {
  input#Username{
     font-size: 1.5vh !important;
  }
+
+ /*responsive*/
 
 @media screen and (max-device-width: 450px) {
     label { 
